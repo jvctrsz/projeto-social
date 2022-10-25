@@ -9,10 +9,15 @@
 @media (max-width: 600px){
     section#redes-sociais{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         position: absolute;
     }
+    a{
+        width: 50px;
+        padding: 10px;
+    }
 }
+
 html, body{
     width: 100vw;
     height: 100vh;
